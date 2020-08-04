@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center">
     <ImageView
         android:scaleType="centerCrop"
         android:id="@+id/sliderItemImageView_ID"
         android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+        android:layout_height="220dp"
+        android:background="@android:color/white"/>
 
 </LinearLayout>
