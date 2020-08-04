@@ -2,7 +2,6 @@ package com.balkrishnashah.imagesliderdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.os.Bundle;
 
 import com.balkrishnashah.imagesliderdemo.slider.ImageSliderModel;
@@ -19,15 +18,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);        setContentView(R.layout.activity_main);
         imageSliderModelList = new ArrayList<>();
         sliderView = findViewById(R.id.imageSlider);
 
-        imageSliderModelList.add(new ImageSliderModel(R.drawable.road_safety));
-        imageSliderModelList.add(new ImageSliderModel(R.drawable.kids_on_bus));
-        imageSliderModelList.add(new ImageSliderModel(R.drawable.bus_safety));
-        imageSliderModelList.add(new ImageSliderModel(R.drawable.under_construction));
+        imageSliderModelList.add(new ImageSliderModel(R.drawable.eat));
+        imageSliderModelList.add(new ImageSliderModel(R.drawable.sleep));
+        imageSliderModelList.add(new ImageSliderModel(R.drawable.code));
+        imageSliderModelList.add(new ImageSliderModel(R.drawable.repeat));
         sliderView.setSliderAdapter(new SliderAdapter(this, imageSliderModelList));
     }
 }
