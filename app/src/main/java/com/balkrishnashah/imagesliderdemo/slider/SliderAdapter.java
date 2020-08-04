@@ -47,19 +47,19 @@ public class SliderAdapter extends SliderViewAdapter<SliderViewHolder> {
             case 0:
 //                Picasso.get().load(uri0).into(viewHolder.msliderImageView);
 //                Picasso.get().load("https://balkrishnashahportfolio.ml/images/repeat.jpg").into(viewHolder.msliderImageView);
-                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/repeat.jpg").into(viewHolder.msliderImageView);
+                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/eat.png").into(viewHolder.msliderImageView);
                 break;
             case 1:
 //                Picasso.get().load("https://balkrishnashahportfolio.ml/images/code.png").into(viewHolder.msliderImageView);
-                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/code.png").into(viewHolder.msliderImageView);
+                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/sleep.png").into(viewHolder.msliderImageView);
                 break;
             case 2:
 //                Picasso.get().load("https://balkrishnashahportfolio.ml/images/sleep.png").into(viewHolder.msliderImageView);
-                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/sleep.png").into(viewHolder.msliderImageView);
+                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/code.png").into(viewHolder.msliderImageView);
                 break;
             case 3:
 //                Picasso.get().load("https://balkrishnashahportfolio.ml/images/eat.png").into(viewHolder.msliderImageView);
-                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/eat.png").into(viewHolder.msliderImageView);
+                Glide.with(viewHolder.itemView).load("https://balkrishnashahportfolio.ml/images/repeat.jpg").into(viewHolder.msliderImageView);
                 break;
 
 
